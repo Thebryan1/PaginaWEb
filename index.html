@@ -10,7 +10,6 @@
     />
     <link rel="icon" href="ae.png" type="image/x-icon" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
   </head>
 
   <body style="margin: 0; padding: 0; height: 100%; display: flex; flex-direction: column;">
@@ -40,15 +39,14 @@
         <i class='bx bx-search' ></i>
         <i class='bx bx-menu' ></i>
     </section>
-    <div class="image-container" style="flex: 1; display: flex; justify-content: center; align-items: center;">
-      <img class="pagina"src="pagina.jpg" alt="Logo 2" />
+    <div class="image-container" style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
+      <img class="pagina" src="pagina.jpg" alt="Logo 2" style="width: 100%; height: auto; position: absolute; top: 0; left: 0;">
       <!-- Contenido de la imagen -->
-      <span class="fondo">
-      <h2 cont="con-tit">Ingenieria de Sistemas e Informatica</h2>
-      <p class="con-int">Con una metodología educativa centrada en la experiencia y la práctica, con profesores especialistas en su campo y acuerdos internacionales que ofrecen una perspectiva global de la profesión.</p>
-      <a href="#" class="button-cont">Solicita Informacion</a>
-      </span>
-      
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
+        <h2>Ingenieria de Sistemas e Informatica</h2>
+        <p>Con una metodología educativa centrada en la experiencia y la práctica, con profesores especialistas en su campo y acuerdos internacionales que ofrecen una perspectiva global de la profesión.</p>
+        <a href="#" style="background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none;">Solicita Informacion</a>
+      </div>
     </div>
 
     <footer style="margin-top: auto;">
@@ -56,3 +54,4 @@
     </footer>
   </body>
 </html>
+

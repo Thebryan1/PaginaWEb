@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Universidad Continental</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #info-container {
+    overflow-y: auto; /* Permite desplazamiento vertical */
+    border: 1px solid #ccc; /* Añade un borde para visualización */
+    padding: 10px; /* Añade algo de espacio interior para que no esté pegado al borde */
+  }
+  .info {
+    margin-bottom: 10px; /* Añade un margen inferior para separar cada nueva información */
+  }
+</style>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -14,6 +29,7 @@
 
   <body style="margin: 0; padding: 0; height: 100%; display: flex; flex-direction: column;">
     <section class="primario">
+<div id="info-container">
       <div class="redes_enlace">
         <i class='bx bxl-gmail'></i>
         <i class='bx bxl-facebook' ></i>
@@ -139,7 +155,7 @@ Además, están capacitados y capacitadas para ofrecer soluciones innovadoras a 
        
     </div>
 </div>
-
+</div>
     <footer style="margin-top: auto;">
       <p>&copy; 2024 Universidad Continental</p>
     </footer>
